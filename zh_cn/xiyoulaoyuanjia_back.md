@@ -31,6 +31,7 @@ _这里需要注意谁前谁后的问题_
 >* 例如github page 中的应用 gh-pages 分支
 
 >*  
+
     git checkout --orphan branchname
     git rm -rf .
 
