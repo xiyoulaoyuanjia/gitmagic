@@ -4,7 +4,7 @@ gitmagic
 A guide to using Git
 
 
-forked from blynn/gitmagic
+forked from [blynn/gitmagic](https://github.com/blynn/gitmagic)
 
 
 
