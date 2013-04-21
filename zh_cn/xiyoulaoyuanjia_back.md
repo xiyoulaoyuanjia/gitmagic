@@ -21,3 +21,21 @@ _这里需要注意谁前谁后的问题_
 >* 3. 则此时 自己远程的代码名称origin 本地为 master  给 原始 代码起一个别名为  upstream 
     git remote add upstream git://github.com
 >* 4. 则 同步远程代码命令为   git fetch stream 
+
+**Create a new branch with git and manage branches**
+
+[Create a new branch with git and manage branches](https://github.com/Kunena/Kunena-2.0/wiki/Create-a-new-branch-with-git-and-manage-branches)
+
+**创建一个完全干净(不会默认把现存的文件加入到新建立的分支里面)的分支方法**
+
+>* 例如github page 中的应用 gh-pages 分支
+
+>*  
+    git checkout --orphan branchname
+    git rm -rf .
+
+
+
+
+
+
