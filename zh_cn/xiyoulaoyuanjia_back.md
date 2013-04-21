@@ -35,6 +35,14 @@ _这里需要注意谁前谁后的问题_
     git rm -rf .
 
 
+**只git 代码仓库的某一个分支**
+
+    git clone -b <branch> <remote_repo>
+
+>* 例如:
+
+    git clone -b mirror git@github.com:xiyoulaoyuanjia/sAoccec.git ossec-mirror
+
 
 
 
