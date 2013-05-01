@@ -45,6 +45,8 @@ _这里需要注意谁前谁后的问题_
     git clone -b mirror git@github.com:xiyoulaoyuanjia/sAoccec.git ossec-mirror
 
 
+**fatal: Not a valid object name: 'master'.**
 
+如果git init 之后直接 git branche 则会出现上面的问题。此时应该commit一次 则可正常
 
 
