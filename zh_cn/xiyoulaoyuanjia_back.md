@@ -50,3 +50,24 @@ _这里需要注意谁前谁后的问题_
 如果git init 之后直接 git branche 则会出现上面的问题。此时应该commit一次 则可正常
 
 
+**如何将本地git仓库中所有的分支push到远程中**
+
+考虑可以使用 
+
+    git push -u origin_bitbucket --all 
+命令,注意上述命令中 origin_bitbucket  是使用 git remote add 添加的远程分支.
+关于 push的 -u 命令参数.注意这里 git push -u 参数的使用.  默认的上游仓库(upstream repository)。
+每个项目至少有一个它追踪(track)的上游(upstream)仓库，通常情况 origin 就是用来表示它。
+你可以用 ”｀git branch -r`“ 命令查看上游仓库(upstream repository)里所有的分支，
+再用 origin/name-of-upstream-branch 的名字来抓取(fetch)远程追踪分支里的内容。
+换句话说 可以简单理解为 upstream 是一个指针,指向默认得remote地址.
+
+
+
+
+
+
+
+
+
+
