@@ -65,6 +65,21 @@ _这里需要注意谁前谁后的问题_
 
 
 
+**github中错误的提交了一次,导致本地push发生错误**
+```
+error: failed to push some refs to 'https://github.com/lizherui/spider_python.git'
+To prevent you from losing history, non-fast-forward updates were rejected
+Merge the remote changes (e.g. 'git pull') before pushing again.  See the
+'Note about fast-forwards' section of 'git push --help' for details.
+```
+
+后来查看了 --force 命令 
+
+```
+Usually, the command refuses to update a remote ref that is not an ancestor of the local ref used to overwrite it. This flag disables the check. This
+           can cause the remote repository to lose commits; use it with care.
+
+```
 
 
 
